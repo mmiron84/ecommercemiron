@@ -1,0 +1,38 @@
+.navbar{
+    background-color:transparent;
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s;
+    z-index: index 1000;
+}
+
+.navbar .logo{
+    width: 30px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0 0.5rem;
+    
+}
+
+.lista{
+    color:black;
+    padding: 1rem;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lista:hover{
+    transition: 0.5s;
+    background: rgb(27, 14, 116);
+    border-radius: 10px;
+    color:rgb(155, 153, 153)
+}
+
