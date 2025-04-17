@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none; 
-    background-color: burlywood;
 }
 
+.Contenedor-principal{
+    background-color: blanchedalmond;
+    height: 100vh;
+
+  }
 

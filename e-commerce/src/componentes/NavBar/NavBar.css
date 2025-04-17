@@ -1,8 +1,8 @@
 .navbar{
     background-color:transparent;
-    padding: 0.7rem 1.5rem;
+    padding: 0.7rem ;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -11,16 +11,40 @@
 }
 
 .navbar .logo{
-    width: 30px;
+    width: 10px;
 }
 
 .nav-list{
-    list-style: none;
+ 
     display: flex;
-    margin: 0 0.5rem;
-    
+    margin-left: 30%; 
 }
 
+.navbar li{
+    list-style: none;
+    display: block;
+}
+
+.navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+   
+}
+.navbar li:hover >ul{
+    display: block;
+}
+.navbar li ul li{
+  
+    position: relative;
+    border-radius: 10px;
+    background: rgb(27, 14, 116);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    min-height: 40px;
+    margin-top: 5px;
+}
 .lista{
     color:black;
     padding: 1rem;
@@ -35,4 +59,3 @@
     border-radius: 10px;
     color:rgb(155, 153, 153)
 }
-

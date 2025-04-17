@@ -1,0 +1,11 @@
+.contenedor-principal{
+    height: auto;
+    align-items: center;
+    position: absolute;
+    background-size: contain;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+    background-color: azure;
+   
+}
