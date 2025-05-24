@@ -21,4 +21,4 @@ Es una pagina web en desarrollo , es esta estapa se realizo la parte del e-comme
 
 ### imgenes de la parte principal de la pagina
 
-![Captura](./e-commerce/public/img/captura.png )
+![Captura](./public/img/captura.png )
