@@ -8,7 +8,7 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAxNYkOo1gfC_Q3fsnrr5q9MiATSgI6iLk",
+  apiKey: import.meta.env.VITE_FULMEN_APIKEY,
   authDomain: "ecommerce-miron.firebaseapp.com",
   projectId: "ecommerce-miron",
   storageBucket: "ecommerce-miron.firebasestorage.app",
@@ -23,6 +23,7 @@ export const db= getFirestore(app)
 
 
 //////////////////////////////////////////////////////////
+//fUNCNION PARA CARGAR LOS PRODUCTOS EN FIREBASE
 /*
 const misProductos =[
     {id:"1", nombre:"Bloque de Agua", stock:10, precio:400, img:"/img/bloqueagua.jpg",idCat:"original"},
