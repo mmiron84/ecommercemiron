@@ -1,6 +1,8 @@
 import React from 'react'
 import './Item.css'
 import { Link } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const Item = ({id, nombre,precio,img}) => {
@@ -11,7 +13,7 @@ const Item = ({id, nombre,precio,img}) => {
         <p>$:{precio}</p>
         <p>ID:{id}</p>
         <Link to={`/item/${id}`}>
-        <button>Mas detalles</button>      
+        <button className="btn btn-danger">Mas detalles</button>      
         </Link>
     </div>
   )

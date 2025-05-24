@@ -1,11 +1,13 @@
-.contenedor-principal{
-    height: auto;
-    align-items: center;
-    position: absolute;
-    background-size: contain;
-    margin-left: 30%;
-    margin-top: 5%;
-    text-align: center;
-    background-color: azure;
-   
+.contenedor-detail{
+  max-width: 500px;
+position: relative;
+  left: 35%;
+ 
+  text-align: center;
+  
+}
+
+.contenedor-detail img{
+    max-width: 300px;
+    border-radius: 2rem;
 }

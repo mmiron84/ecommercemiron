@@ -4,10 +4,10 @@ import './ItemError.css'
 
 const ItemError = () => {
   return (
-    <div className='contenedor-error'>
-      <img className='imagen' src= {mensajeerror} alt='error'/>
+    <div className="contenedor-error">
+      <img className="imagen" src={mensajeerror} alt="error" />
     </div>
-  )
-}
+  );
+};
 
-export default ItemError
+export default ItemError;
